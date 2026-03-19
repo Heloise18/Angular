@@ -9,6 +9,7 @@ export class InputComponent {
 
   @Input()
   Value: string = "";
+  
   @Output()
   changed: EventEmitter<string> = new EventEmitter();
 

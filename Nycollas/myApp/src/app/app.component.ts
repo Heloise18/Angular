@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myApp';
   
-  nome = "Nycollas";
+  nome = "Escreva";
   inputValueChanged = (value: string) => {
     this.nome = value
   }

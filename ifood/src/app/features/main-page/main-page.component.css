@@ -1,0 +1,11 @@
+.main-container{
+    display: flex;
+    background-color: #fffefe;
+    
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 5rem);
+    overflow: scroll;
+}

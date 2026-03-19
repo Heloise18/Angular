@@ -1,0 +1,24 @@
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    width: 17rem;
+    height: 20rem;
+}
+
+.container{
+    background-color: rgb(247, 83, 118);
+    width: 16rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image{
+    width: 10rem;
+    height: 10rem;
+}
