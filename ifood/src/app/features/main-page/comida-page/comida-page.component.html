@@ -1,11 +1,14 @@
 <div class="container">
     
     <h1>Comida-page works!</h1>
-    <div class="cards" (click)="abrir()">
+    <div class="cards">
     
         <div class="_COMIDA" *ngFor="let data of Foods; track: $index">
             <card-comida 
-                [value]="data">
+                [value]="data"
+                (Click)="abrir(data)"
+               
+                >
             </card-comida>
         </div>
         
@@ -13,8 +16,10 @@
         
     </div>
     <modal-comida 
-        *ngIf="abrido" 
-        (click)="fechar()" >
+        *ngIf="focusedFood"
+        [value]="focusedFood"
+        (Click)="focusedFood = undefined"
+        >
     </modal-comida>
         
 </div>

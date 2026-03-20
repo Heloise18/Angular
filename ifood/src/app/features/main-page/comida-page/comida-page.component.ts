@@ -9,20 +9,22 @@ import MockComida, { IComida } from './Comida.mock';
 
 export class ComidaPageComponent {
   
-  protected abrido = false;
-
-  abrir = () =>{
-    this.abrido = true;
-    console.log("abriuuu")
-  }
-
-  fechar = () =>{
-    this.abrido = false;
-    console.log("fechouu")
-  }
-
-  protected Foods: IComida[] = []
+  // protected abrido = false;
   
+  // fechar = () =>{
+    //   this.abrido = false;
+    //   console.log("fechouu")
+    // }
+    
+    protected Foods: IComida[] = []
+
+    protected focusedFood?: IComida;
+    
+    abrir = (item: IComida) =>{
+      this.focusedFood = item;
+      console.log("abriuuu")
+    }
+    
   constructor (){
     this.Foods = MockComida;
   }

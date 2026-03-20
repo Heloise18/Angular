@@ -9,7 +9,7 @@ import { IComida } from '../../Comida.mock';
 export class ModalComidaComponent {
   
   @Input()
-  value!: IComida
+  value?: IComida
 
   @Output()
   Click: EventEmitter<void> = new EventEmitter()

@@ -1,18 +1,19 @@
 <div class="border">
     
     <div class="container" (click)="open()">
+            <header>
+                {{value?.id}} -
+                <h2>{{value?.name}}</h2> 
+            </header>
+           
 
-        <div class="texts">
-            <div>Id: {{value.id}}</div>
-            <div>{{value.name}}</div>
-            <div>{{value.restaurant}}</div>
-            <div>{{value.distancia}}</div>
+            <p>{{value?.restaurant}}</p>
             
+            <p>R$ {{value?.price}}</p>
+        
             <img class="image" [src]="value.image" alt="{{value.name}}">
           
             
-        </div>
-
     </div>
 </div>
 

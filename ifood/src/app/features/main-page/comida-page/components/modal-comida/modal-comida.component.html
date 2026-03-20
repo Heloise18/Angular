@@ -3,9 +3,20 @@
     <div class="border">
         
         <div class="container">
-            <p>modal-comida works!</p>
-            {{value.name}}
-            <Button (click)="clicked()" class="botao">COMPRAR</Button>
+            <div>
+                {{value?.id}}
+                <h1>{{value?.name}}</h1> 
+            </div>
+
+            <p>{{value?.restaurant}}</p>
+            
+            <p>R$ {{value?.price}}</p>
+            
+            <img [src]="value?.image" alt="imagem">
+
+            <footer>
+                <Button (click)="clicked()" class="botao">COMPRAR</Button>
+            </footer>
         </div>
     </div>
 

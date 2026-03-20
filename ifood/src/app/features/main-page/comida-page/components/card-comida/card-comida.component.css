@@ -13,6 +13,12 @@
     }
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 .container{
     background-color: rgb(247, 83, 118);
     width: 16rem;
