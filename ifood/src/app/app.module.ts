@@ -8,12 +8,12 @@ import { LoginPageComponent } from './features/login-page/login-page.component';
 import { MainPageComponent } from './features/main-page/main-page.component';
 import { ErrorPageComponent } from './features/error-page/error-page.component';
 import { HeaderComponent } from './shared/header/header.component';
-import { NavComponent } from './shared/nav/nav.component';
 import { MercadoPageComponent } from './features/main-page/mercado-page/mercado-page.component';
 import { ComidaPageComponent } from './features/main-page/comida-page/comida-page.component';
 import { CardMercadoComponent } from './features/main-page/mercado-page/Components/card-mercado/card-mercado.component';
 import { CardComidaComponent } from './features/main-page/comida-page/components/card-comida/card-comida.component';
 import { ModalComidaComponent } from './features/main-page/comida-page/components/modal-comida/modal-comida.component';
+import { ModalComponent } from './shared/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +22,12 @@ import { ModalComidaComponent } from './features/main-page/comida-page/component
     MainPageComponent,
     ErrorPageComponent,
     HeaderComponent,
-    NavComponent,
     MercadoPageComponent,
     ComidaPageComponent,
     CardMercadoComponent,
     CardComidaComponent,
-    ModalComidaComponent
+    ModalComidaComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

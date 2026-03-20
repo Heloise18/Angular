@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: crimson;
+    background-color: rgb(185, 185, 183);
     width: 17rem;
     height: 20rem;
     border-radius: 20px;
-    box-shadow: 0 0 10px  rgb(161, 9, 34);
+    box-shadow: 0 0 10px  rgb(0, 0, 0);
     
     :hover{
         transition: transform 0.3s ease; 
@@ -20,7 +20,7 @@ header{
     gap: 5px;
 }
 .container{
-    background-color: rgb(247, 83, 118);
+    background-color: rgb(255, 253, 254);
     width: 16rem;
     height: 19rem;
     display: flex;

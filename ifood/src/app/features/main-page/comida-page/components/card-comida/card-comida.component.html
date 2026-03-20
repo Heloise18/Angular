@@ -4,16 +4,14 @@
             <header>
                 {{value?.id}} -
                 <h2>{{value?.name}}</h2> 
-            </header>
-           
+            </header>   
 
-            <p>{{value?.restaurant}}</p>
+            <p>{{value!.restaurant}}</p>
             
             <p>R$ {{value?.price}}</p>
         
             <img class="image" [src]="value.image" alt="{{value.name}}">
           
-            
     </div>
 </div>
 

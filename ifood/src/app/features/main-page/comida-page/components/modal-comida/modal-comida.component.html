@@ -3,10 +3,11 @@
     <div class="border">
         
         <div class="container">
-            <div>
-                {{value?.id}}
+            <header>
+                {{value?.id}} - 
                 <h1>{{value?.name}}</h1> 
-            </div>
+            </header>
+           
 
             <p>{{value?.restaurant}}</p>
             
@@ -15,7 +16,7 @@
             <img [src]="value?.image" alt="imagem">
 
             <footer>
-                <Button (click)="clicked()" class="botao">COMPRAR</Button>
+                <Button (click)="clicked()" class="botao">Adicionar ao carrinho</Button>
             </footer>
         </div>
     </div>
