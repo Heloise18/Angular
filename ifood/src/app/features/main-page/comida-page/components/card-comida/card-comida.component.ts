@@ -11,6 +11,14 @@ export class CardComidaComponent {
   @Input()
   value!: IComida 
 
+  @Output()
+  Click: EventEmitter<void> = new EventEmitter();
+
+  open = () => {
+    this.Click.emit();
+  }
+
+  
 
 
 

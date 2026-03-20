@@ -9,6 +9,7 @@ import MockMercado, { IMercado } from './Mercado.mock';
 export class MercadoPageComponent {
 
   protected Mercados: IMercado[] = []
+  
   constructor(){
     this.Mercados = MockMercado
   }

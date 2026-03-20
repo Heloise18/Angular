@@ -9,7 +9,7 @@ import { IMercado } from '../../Mercado.mock';
 export class CardMercadoComponent {
   
   @Input()
-  value!: IMercado 
+  public value!: IMercado 
 
 
 

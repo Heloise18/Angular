@@ -1,0 +1,51 @@
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    backdrop-filter: blur(2px);
+    
+}
+.border{
+    height: 40rem;
+    width: 30rem;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    background-color: rgb(202, 160, 178);
+    border-radius: 17px;
+}
+
+.container{
+    height: 39rem;
+    width: 29rem;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    background-color: rgba(138, 21, 60, 0.904);
+    border-radius: 19px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    
+}
+
+.botao{
+    padding: 5px;
+    height: 30px; 
+    width: 40%;
+    background-color: rgb(116, 14, 36);
+    border: solid 2px rgb(192, 127, 163);
+    border-radius: 5px;
+    color: white;
+    
+
+}
+.botao:hover{
+    background-color: rgb(133, 63, 78);
+
+}
