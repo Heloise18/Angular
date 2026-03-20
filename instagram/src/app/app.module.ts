@@ -7,6 +7,7 @@ import { LoginPageComponent } from './features/login-page/login-page.component';
 import { MainPageComponent } from './features/main-page/main-page.component';
 import { ValidateLoginComponent } from './features/login-page/components/validate-login/validate-login.component';
 import { PostComponent } from './shared/post/post.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PostComponent } from './shared/post/post.component';
     LoginPageComponent,
     MainPageComponent,
     ValidateLoginComponent,
-    PostComponent
+    PostComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
